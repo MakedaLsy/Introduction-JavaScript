@@ -6,5 +6,5 @@ function carre(x) {
 var nombre;
 
 for (nombre = 0; nombre<=10; nombre++) {
-    console.log(carre(nombre)); 
+    console.log(nombre + " * " + nombre + " = "+ carre(nombre)); 
 }
